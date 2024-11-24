@@ -2,6 +2,11 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.broCode_main.iml
+
+# IntelliJ IDEA specific files
+*.iml
+.idea/
 
 ### Eclipse ###
 .apt_generated
