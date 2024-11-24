@@ -21,6 +21,9 @@ public class main {
         /*
         Bounded types = you can create the objects of a generic class to have data
         of specific derived types ex: Number
+
+        public class GenericClass<Thing extends Number, Thing2 extends >
+        Meaning >> we can only use subclasses under Number class (String,Character) no longer supported
          */
         System.out.println(myInt.getValue());
         System.out.println(myDouble.getValue());
